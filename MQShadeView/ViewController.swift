@@ -8,18 +8,35 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    //MARK: - 自定义Present样式
+    @IBAction func presentAction(_ sender: UIButton) {
+        CustomViewController.present(on: self, title: "") { (code, string) in
+            
+        }
+    }
+    
+    @IBAction func systemPresent(_ sender: UIButton) {
+        
+        let vc: SystemViewController = SystemViewController()
+        vc.view.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
