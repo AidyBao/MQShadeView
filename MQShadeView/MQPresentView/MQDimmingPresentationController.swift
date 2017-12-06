@@ -1,14 +1,13 @@
 //
-//  ZXDimmingPresentationController.swift
-//  YDY_GJ_3_5
+//  MQDimmingPresentationController.swift
 //
-//  Created by screson on 2017/4/25.
-//  Copyright © 2017年 screson. All rights reserved.
+//  Created by AidyBao on 2017/10/25.
+//  Copyright © 2017年 AidyBao. All rights reserved.
 //
 
 import UIKit
 
-class ZXDimmingPresentationController: UIPresentationController {
+class MQDimmingPresentationController: UIPresentationController {
     var maskView:UIView!
     fileprivate func setupMaskView() {
         maskView = UIView(frame: CGRect.zero)

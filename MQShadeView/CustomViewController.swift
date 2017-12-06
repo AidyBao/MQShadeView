@@ -51,6 +51,6 @@ class CustomViewController: UIViewController,UIViewControllerTransitioningDelega
     }
 
     func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
-        return ZXDimmingPresentationController.init(presentedViewController: presented, presenting: presenting)
+        return MQDimmingPresentationController.init(presentedViewController: presented, presenting: presenting)
     }
 }
