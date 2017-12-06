@@ -1,17 +1,20 @@
 Pod::Spec.new do |s|
-s.name             = "MQShadeView"
-s.version          = "1.0.1"
-s.summary          = "Custom shadeview used on swift."
-s.description      = <<-DESC
-                     Custom shadeView used on swift, which implement by swift.
-                     DESC
-s.homepage         = "https://github.com/AidyBao/MQShadeView"
-s.license          = 'MIT'
-s.author           = { "AidyBao" => "281907061@qq.com" }
-s.source           = { :git => "https://github.com/AidyBao/MQShadeView.git", :tag => s.version }
+  s.name             = 'MQShadeView'
+  s.version          = '1.0.4'
+  s.summary          = 'MQShadeView For swift shadeView'
 
-s.ios.deployment_target = '10.0'
+  s.description      = <<-DESC
+  			MQShadeView.For swift shadeView.
+                       DESC
 
-s.source_files     = 'MQShadeView/**/*.swift'
-s.requires_arc     = true
+  s.homepage         = 'https://github.com/AidyBao/MQShadeView'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'AidyBao' => '281907061@qq.com' }
+  s.source           = { :git => 'https://github.com/AidyBao/MQShadeView.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  s.ios.deployment_target = '8.0'
+
+  s.source_files          = 'MQShadeView/**/*.swift'
+  s.resource              = 'MQShadeView/MQPresentView'
 end
