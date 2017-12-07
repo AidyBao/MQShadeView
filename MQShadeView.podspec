@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files          = 'MQShadeView/**/*.swift'
+  s.source_files     = 'MQShadeView/*'
+  s.frameworks       = 'Foundation', 'UIKit'
 end
