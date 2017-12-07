@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files          = 'MQShadeView/MQPresentView/*.swift'
+  s.source_files          = 'MQShadeView/**/*.swift'
 end
