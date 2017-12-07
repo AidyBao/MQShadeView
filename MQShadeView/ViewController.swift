@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     //MARK: - 自定义Present样式
     @IBAction func presentAction(_ sender: UIButton) {
         CustomViewController.present(on: self, title: "") { (code, string) in
-            
+            print(string)
         }
     }
     
