@@ -16,7 +16,8 @@
 		7A37D6371FD66E320080A94C /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A37D6351FD66E320080A94C /* CustomViewController.xib */; };
 		7A37D63A1FD674B40080A94C /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A37D6381FD674B40080A94C /* SystemViewController.swift */; };
 		7A37D63B1FD674B40080A94C /* SystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A37D6391FD674B40080A94C /* SystemViewController.xib */; };
-		7A3B61541FD7B6C000152084 /* MQDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B61531FD7B6C000152084 /* MQDimmingPresentationController.swift */; };
+		7AEBD4901FDA2B080013A444 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 7AEBD48E1FDA2B080013A444 /* .swift-version */; };
+		7AEBD4911FDA2B080013A444 /* MQDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEBD48F1FDA2B080013A444 /* MQDimmingPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		7A37D6351FD66E320080A94C /* CustomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
 		7A37D6381FD674B40080A94C /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
 		7A37D6391FD674B40080A94C /* SystemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SystemViewController.xib; sourceTree = "<group>"; };
-		7A3B61531FD7B6C000152084 /* MQDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQDimmingPresentationController.swift; sourceTree = "<group>"; };
+		7AEBD48E1FDA2B080013A444 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		7AEBD48F1FDA2B080013A444 /* MQDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQDimmingPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		7A37D61F1FD66B440080A94C /* MQShadeView */ = {
 			isa = PBXGroup;
 			children = (
+				7AEBD48D1FDA2B080013A444 /* MQShadeView */,
 				7A37D6201FD66B440080A94C /* AppDelegate.swift */,
 				7A37D6221FD66B440080A94C /* ViewController.swift */,
 				7A37D6341FD66E320080A94C /* CustomViewController.swift */,
@@ -71,7 +74,6 @@
 				7A37D6381FD674B40080A94C /* SystemViewController.swift */,
 				7A37D6391FD674B40080A94C /* SystemViewController.xib */,
 				7A37D6241FD66B440080A94C /* Main.storyboard */,
-				7A3B61521FD7B6C000152084 /* MQPresentView */,
 				7A37D6271FD66B440080A94C /* Assets.xcassets */,
 				7A37D6291FD66B440080A94C /* LaunchScreen.storyboard */,
 				7A37D62C1FD66B440080A94C /* Info.plist */,
@@ -79,12 +81,13 @@
 			path = MQShadeView;
 			sourceTree = "<group>";
 		};
-		7A3B61521FD7B6C000152084 /* MQPresentView */ = {
+		7AEBD48D1FDA2B080013A444 /* MQShadeView */ = {
 			isa = PBXGroup;
 			children = (
-				7A3B61531FD7B6C000152084 /* MQDimmingPresentationController.swift */,
+				7AEBD48E1FDA2B080013A444 /* .swift-version */,
+				7AEBD48F1FDA2B080013A444 /* MQDimmingPresentationController.swift */,
 			);
-			path = MQPresentView;
+			path = MQShadeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +153,7 @@
 				7A37D63B1FD674B40080A94C /* SystemViewController.xib in Resources */,
 				7A37D6281FD66B440080A94C /* Assets.xcassets in Resources */,
 				7A37D6371FD66E320080A94C /* CustomViewController.xib in Resources */,
+				7AEBD4901FDA2B080013A444 /* .swift-version in Resources */,
 				7A37D6261FD66B440080A94C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,8 +168,8 @@
 				7A37D6231FD66B440080A94C /* ViewController.swift in Sources */,
 				7A37D63A1FD674B40080A94C /* SystemViewController.swift in Sources */,
 				7A37D6361FD66E320080A94C /* CustomViewController.swift in Sources */,
+				7AEBD4911FDA2B080013A444 /* MQDimmingPresentationController.swift in Sources */,
 				7A37D6211FD66B440080A94C /* AppDelegate.swift in Sources */,
-				7A3B61541FD7B6C000152084 /* MQDimmingPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
