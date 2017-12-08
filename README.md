@@ -1,6 +1,6 @@
 # MQShadeView
 
-[![CI Status](http://img.shields.io/travis/iFallen/MQShadeView.svg?style=flat)](https://travis-ci.org/AidyBao/MQShadeView)
+[![CI Status](http://img.shields.io/travis/AidyBao/MQShadeView.svg?style=flat)](https://travis-ci.org/AidyBao/MQShadeView)
 [![Version](https://img.shields.io/cocoapods/v/MQShadeView.svg?style=flat)](http://cocoapods.org/pods/MQShadeView)
 [![License](https://img.shields.io/cocoapods/l/MQShadeView.svg?style=flat)](http://cocoapods.org/pods/MQShadeView)
 [![Platform](https://img.shields.io/cocoapods/p/MQShadeView.svg?style=flat)](http://cocoapods.org/pods/MQShadeView)
