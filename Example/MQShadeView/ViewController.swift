@@ -27,8 +27,8 @@ class ViewController: UIViewController {
     @IBAction func systemPresent(_ sender: UIButton) {
         
         let vc: SystemViewController = SystemViewController()
-        vc.view.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-        self.navigationController?.pushViewController(vc, animated: true)
+//        vc.view.frame = CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        self.present(vc, animated: true, completion: nil)
     }
     
     
